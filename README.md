@@ -21,3 +21,5 @@ El cifrado de Polibio es una técnica de encriptación clásica que utiliza una 
 
 ## Acerca de
 Esta herramienta es el resultado del aprendizaje en el curso de fundamentos de programación de Oracle Next Education. No se recomienda utilizarla para encriptar información sensible.
+
+![Captura](https://github.com/Blado87/alura_challenge1__ONE/assets/60237373/40543551-68e8-45aa-ad1f-4abfcde8a50e)
