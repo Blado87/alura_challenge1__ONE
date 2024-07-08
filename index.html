@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,55 +8,60 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
     <!-- HEADER -->
-   <header>
-    <a href="https://www.aluracursos.com/"><img src="/img/logoAlura.svg" alt="Logo de Alura"></a>
-    <a href="/about.html"><img src="/img/help.svg" alt="Acerca de"></a>
-   </header>
-   <!-- MAIN -->
-   <main>
-    <!-- SECTION 1 -->
-    <section class="border-top-radius">
-        <div class="section-title border-top-radius">
+    <header>
+        <a href="https://www.aluracursos.com/"><img src="/img/logoAlura.svg" alt="Logo de Alura"></a>
+        <a href="/about.html"><img src="/img/help.svg" alt="Acerca de"></a>
+    </header>
+    <!-- MAIN -->
+    <main>
+        <!-- SECTION 1 -->
+        <section class="border-top-radius">
+            <!-- <div class="section-title border-top-radius">
             <img src="/img/content_copy.svg" alt="Copiar contenido">
-        </div>
-        <div class="container-textare">
-            <textarea placeholder="Ingrese el texto aqui..." name="" id=""></textarea>
-        </div>
+        </div> -->
+            <div class="container-textare">
+                <textarea placeholder="Ingrese el texto aqui..." name="userText" id="userText"></textarea>
+            </div>
+            <div>
+                <div class="section-alert">
+                    <img src="/img/info.svg" alt="Información">
+                    <p>Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="container-command">
+                    <input class="button primary-button" type="button" value="Desencriptar">
+                    <input class="button secundary-button" type="button" value="Encriptar" id="encriptarText">
+                </div>
+            </div>
+        </section>
+        <!-- SECTION 2     -->
+        <section class="border-top-radius" id="textoProcesado">
+            <!-- <div class="section-title border-top-radius">
+            <img src="/img/content_copy.svg" alt="Copiar contenido">
+        </div>         -->
+            <div class="container-person">
+                <img src="/img/persona.svg" alt="Persona">
+                <p>Ningún mensaje fue encontrado</p>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer>
         <div>
-            <div class="section-alert">
-                <img src="/img/info.svg" alt="Información">
-                <p>Solo letras minúsculas y sin acentos</p>
-            </div>
-            <div class="container-command">
-                <input class="button primary-button" type="button" value="Desencriptar">            
-                <input class="button secundary-button" type="button" value="Encriptar">
-            </div>
+            <!-- https://icons.getbootstrap.com/icons/github/ -->
+            <!-- https://icons.getbootstrap.com/icons/linkedin/ -->
+            <a href="https://github.com/Blado87/" target="_blank"><img src="/img/github.svg" alt="github"></a>
+            <a href="https://www.linkedin.com/in/bladimir-benavides-ocampo" target="_blank"><img src="/img/linkedin.svg"
+                    alt="linkedin"></a>
         </div>
-    </section>
-    <!-- SECTION 2     -->
-    <section class="border-top-radius">
-        <div class="section-title border-top-radius">
-            <img src="/img/content_copy.svg" alt="Copiar contenido">
-        </div>        
-        <div class="container-person">
-            <img src="/img/persona.svg" alt="Persona">
-            <p>Ningún mensaje fue encontrado</p>
-        </div>      
-    </section>
-   </main>
-   <!-- FOOTER -->
-   <footer>
-    <div>
-        <!-- https://icons.getbootstrap.com/icons/github/ -->
-        <!-- https://icons.getbootstrap.com/icons/linkedin/ -->
-         <a href="https://github.com/Blado87/" target="_blank"><img src="/img/github.svg" alt="github"></a>
-         <a href="https://www.linkedin.com/in/bladimir-benavides-ocampo" target="_blank"><img src="/img/linkedin.svg" alt="linkedin"></a>
-    </div>
-    <p>Bladimir Benavides - 2024</p>
-   </footer>
+        <p>Bladimir Benavides - 2024</p>
+    </footer>
+
+
 
     <script src="script.js"></script>
 </body>
+
 </html>
